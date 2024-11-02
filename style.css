@@ -1,0 +1,291 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navigation bar  */
+.navbar{
+    background-color: #232f3f;
+    height: 4.5em;
+    width: 100%;
+    display: flex;
+    color: white;
+}
+
+/* logo  */
+
+.logo_bar{
+    width: 10%;
+    height: 100%;     
+    background-image: url('logo.png');
+    background-size: cover;
+}
+
+/* address bar */
+
+.address{
+    height: 100%; 
+    width: 10%;
+    align-content: center;
+}
+
+.add_first{
+    font-size: 0.9rem;
+    margin-left: 1rem;
+}
+
+.add_icon{
+    display: flex;
+    align-items: center;
+}
+
+.add_sec{
+    margin-left: 0.3rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* search bar  */
+
+.search{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.search_bar{
+    height: 60%;
+    width: 80%;
+}
+
+.search_list{
+    height: 70%;
+    width: 10%;
+    border-top-left-radius: 20%;
+    border-bottom-left-radius: 20%;
+}
+
+.search_icon{
+    height: 68%;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+
+#search_icon2{
+    transform: scale(2);
+}
+
+/* account bar */
+
+.account{
+    height: 100%;
+    width: 10%; 
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    justify-content: center;
+    align-content: center;
+}
+
+.acc{
+    text-decoration: none;
+    color: white;
+}
+
+/* order bar  */
+
+.order{
+    height: 100%;
+    width: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.return{
+    width: 100%;
+}
+
+
+/* cart bar  */
+
+.cart{
+    display: flex;
+    height: 100%;
+    width: 10%;
+    justify-content: center;
+    align-items: center; 
+}
+
+.cart_font{
+    font-size: 13px;
+    margin-left: 8px;
+    margin-top: 10px;
+}
+
+#cart_icon{
+    transform: scale(2);
+}
+
+.navbar2{
+    background-color: #387478;
+    height: 40px;
+    display: flex;
+}
+
+.option_link{
+   margin-right: 20px;
+   margin-left: 10px;
+   color: white;
+   text-decoration: none;
+   align-content: center;
+
+
+}
+
+#all_tab{
+    width: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.all_nav{
+    margin: 5px;
+}
+
+/* article bar  */
+
+.bg_cover{
+    width: 100%;
+}
+
+/* India link Here in center  */
+
+.Amazon_link_line{
+    position: absolute;
+    width: 100%;
+    bottom: 170px;
+    height: 50px;
+    background-color: rgb(243, 161, 90);
+    align-content: center;
+    color: black;
+    text-align: center;
+}
+
+.ama_in_link{
+    text-decoration: none;
+}
+
+/* container bar */
+
+.container{
+    margin-top: -4px;
+    background-color: #ff7161;
+    height: 850px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+
+.box{
+    height: 330px;
+    background-color: white;
+    width: 22%;
+    margin: 1%;
+    padding: 30px 6.5px 20px 6.5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h3{
+    width: 100%;
+    height: 40px;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+
+.box_container{
+   width: 46%;
+   height: 35%;
+   margin: 2%;
+}
+
+.more_link{
+    text-decoration: none;
+    position: relative;
+    color: #0c0ccf;
+    top: 10px;
+    left: 5px;
+}
+
+
+/* footer bar  */
+
+footer{
+    background-color: #232f3f;
+}
+
+.footer_bar{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    color: white;
+    height: 300px;
+    width: 100%;
+}
+
+.footer_content{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+hr{
+    background-color: #232f3f;
+}
+
+.footer_logo{
+    height: 60px;  
+    width: 100%;
+    text-align: center;
+}
+
+.logo_footer{
+    height: 100%;   
+}
+
+.description_web{
+   height: 80px;
+   color: white;
+   font-size: 13px;
+   align-content: center;
+}
+
+.First_info{
+    display: flex;
+    justify-content: center;
+}
+
+.info_data{
+    margin: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.info_data:hover{
+    text-decoration-line:underline;
+}
+
+.copyright_info{
+    text-align: center;
+}
+
+
+
+
+
